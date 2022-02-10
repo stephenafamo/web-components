@@ -16,4 +16,4 @@ These components are created and maintained by [Stephen AfamO][stephenafamo]
 
 [stephenafamo]: https://stephenafamo.com
 [swish]: https://swish.ink
-[rss-embed]: [src/components/rss-embed/README.md]
+[rss-embed]: src/components/rss-embed/README.md
