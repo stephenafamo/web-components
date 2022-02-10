@@ -7,7 +7,7 @@ This component can be used to embed entries from an RSS feed.
 ## Usage
 
 ```html
-    <script src="/rss-embed.js"></script>
+    <script src="https://web-components.pages.dev/rss-embed.js"></script>
     <rss-embed source="https://example.com/feed.xml"></rss-embed>
 ```
 
@@ -29,7 +29,7 @@ The component can be configured using the following attributes.
 **Example**
 
 ```html
-    <script src="/rss-embed.js"></script>
+    <script src="https://web-components.pages.dev/rss-embed.js"></script>
     <rss-embed
       source="https://example.com/feed.xml"
       max-items="12"
@@ -79,7 +79,7 @@ Note: It is not necessary to set the value at every breakpoint, the property fal
 **Example**
 
 ```html
-    <script src="/rss-embed.js"></script>
+    <script src="https://web-components.pages.dev/rss-embed.js"></script>
     <rss-embed
       source="https://example.com/feed.xml"
       breakpoints="640,1024"
