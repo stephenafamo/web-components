@@ -10,10 +10,5 @@ To develop, close the repo and make any changes. There are several included scri
 * `npm run build:watch`: Build a development bundle and watch for changes.
 * `npm run start`: Start a development server looking for files in `demo/`. For local development, you should add a file at `demo/index.html`.
 
-## Author
-
-These components are created and maintained by [Stephen AfamO][stephenafamo]
-
-[stephenafamo]: https://stephenafamo.com
 [swish]: https://swish.ink
 [rss-embed]: src/components/rss-embed/README.md
