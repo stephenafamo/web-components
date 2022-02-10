@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "lib": ["es2017", "dom"],
+    "strict": true,
+    "outDir": "./types",
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "useDefineForClassFields": false,
+    "emitDeclarationOnly": true,
+    "strictNullChecks": true,
+    "declaration": true,
+    "importHelpers": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "rootDir": "./"
+  },
+  "include": ["**/*.ts"]
+}

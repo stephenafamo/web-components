@@ -1,0 +1,36 @@
+{
+  "name": "@stephenafamo/web-components",
+  "version": "1.0.0",
+  "description": "Web components created by Stephenafamo(https://stephenafamo.com).",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && NODE_ENV=production node build.script.js",
+    "build:watch": "node build.script.js",
+    "start": "web-dev-server --open demo/ --watch",
+    "test": "yarn build && web-test-runner tsc-out/test/**/*.test.js",
+    "test:watch": "web-test-runner dist/test/**/*.test.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stephenafamo/web-components.git"
+  },
+  "author": "Stephen Afam-Osemene <me@stephenafamo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephenafamo/web-components/issues"
+  },
+  "homepage": "https://github.com/stephenafamo/web-components#readme",
+  "devDependencies": {
+    "@koa/cors": "^3.1.0",
+    "@web/dev-server": "^0.1.29",
+    "@web/test-runner": "^0.13.26",
+    "esbuild": "^0.14.18",
+    "lit": "^2.1.2",
+    "node-notifier": "^10.0.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "rss-to-json": "^2.0.2"
+  }
+}
