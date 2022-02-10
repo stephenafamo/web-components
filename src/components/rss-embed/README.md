@@ -81,6 +81,7 @@ Note: It is not necessary to set the value at every breakpoint, the property fal
 ```html
     <script src="/rss-embed.js"></script>
     <rss-embed
+      source="https://example.com/feed.xml"
       breakpoints="640,1024"
       style="
         --loader-color: blue;
