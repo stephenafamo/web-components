@@ -55,6 +55,22 @@ The component are styled using [CSS Custom Properties](https://developer.mozilla
 * `--category-background-color`: The background color of the category chips. Default `rgba(0, 0, 0, 0.25)`.
 * `--loader-color`: The color of the loading spinner which shows when the feed is being fetched. Default `black`.
 
+**Example**
+
+```html
+    <script src="https://web-components.pages.dev/rss-embed.js"></script>
+    <rss-embed
+      source="https://example.com/feed.xml"
+      style="
+        --text-color: blue;
+        --item-border: thick double #32a1ce;
+        --item-border-radius: 0px;
+        --category-background-color: rgba(0, 0, 255, 0.25);
+        --loader-color: blue;
+      "
+    ></rss-embed>
+```
+
 
 #### Responsive properties
 
