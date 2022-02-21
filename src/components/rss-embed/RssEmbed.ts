@@ -109,8 +109,8 @@ export class RssEmbed extends LitElement {
   }
 
   private _title(item: any) {
-    const category = unsafeStatic(this.titleTag)
-    return html`<${category} class="title">${item.title}</${category}>`
+    const tag = unsafeStatic(this.titleTag)
+    return html`<${tag} class="title">${unescape(item.title)}</${tag}>`
   }
 
   private _description(item: any) {
