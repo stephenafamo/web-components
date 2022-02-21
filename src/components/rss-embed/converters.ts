@@ -13,6 +13,8 @@ export const FormatStyleConverter = (fallback: formatStyle): ComplexAttributeCon
         case 'medium':
         case 'short':
           return value
+        case 'hidden':
+          return undefined
         default:
           return fallback
       }
